@@ -23,6 +23,7 @@ WriteRegDWORD HKEY_LOCAL_MACHINE "SOFTWARE\Microsoft\Windows\CurrentVersion\poli
 WriteRegStr HKEY_CURRENT_USER "Control Panel\Desktop" "AutoEndTasks" "1"
 WriteRegStr HKEY_CURRENT_USER "Control Panel\Desktop" "WaitToKillAppTimeout" "2000"
 WriteRegStr HKEY_CURRENT_USER "Control Panel\Desktop" "HungAppTimeout" "2000"
+WriteRegStr HKEY_CURRENT_USER "Control Panel\Desktop" "ForegroundLockTimeout" 0x30d40
 WriteRegStr HKEY_LOCAL_MACHINE "SYSTEM\CurrentControlSet\Control" "WaitToKillServiceTimeout" "2000"
 WriteRegStr HKEY_CURRENT_USER "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" "BrowseNewProcess" "Yes"
 
